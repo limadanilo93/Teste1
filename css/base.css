@@ -178,13 +178,16 @@ main {
 	font-size: 8vw;
 	margin: 0;
 	color: var(--color-title);
-	text-transform: lowercase;
+	text-transform: none;
 	letter-spacing: -0.05em;
 	text-indent: -0.05em;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 900;
 }
-
+#caneca {
+	size: 5%;
+	align-items: center;
+}
 .content__subtitle  {
 	max-width: 300px;
 	text-align: center;
@@ -302,8 +305,8 @@ main {
 .menu__item {
 	color: var(--color-menu);
 	line-height: 1.25;
-	text-transform: lowercase;
-	letter-spacing: -0.025em;
+	text-transform: capitalize;
+	letter-spacing: 0em;
 	text-indent: -0.025em;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 900;
